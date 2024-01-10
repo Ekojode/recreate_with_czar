@@ -17,6 +17,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   intl: ^0.18.1
   flutter_riverpod: ^2.4.9
+  flutter_secure_storage: ^9.0.0
 
 dev_dependencies:
   flutter_test:
@@ -29,4 +30,9 @@ flutter:
 
   uses-material-design: true
   generate: true
+
+  assets:
+    - assets/action_bar_icons/
+    - assets/navigation_icons/
+
 

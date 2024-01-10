@@ -3,6 +3,26 @@
     "@language": {
         "description": "The current language"
     },
+    "english" : "English",
+    "@english":{
+        "description":"English language"
+    },
+    "french" : "French",
+    "@french":{
+        "description":"French language"
+    },
+     "spanish" : "Spanish",
+    "@spanish":{
+        "description":"Spanish language"
+    },
+    "german" : "German",
+    "@german":{
+        "description":"German language"
+    },
+    "italian" : "Italian",
+    "@italian":{
+        "description":"Italian language"
+    },
     "flag": "🇬🇧",
     "@flag": {
         "description": "The current flag"

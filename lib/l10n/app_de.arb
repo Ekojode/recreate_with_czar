@@ -45,5 +45,10 @@
     "networking": "Networking",
     "romance": "Romantik",
     "shopping": "Einkaufen",
-    "sightSeeing": "Besichtigung"
+    "sightSeeing": "Besichtigung",
+    "english": "Englisch",
+    "french": "Französisch",
+    "spanish": "Spanisch",
+    "german": "Deutsch",
+    "italian": "Italienisch"
 }
