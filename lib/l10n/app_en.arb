@@ -1,0 +1,190 @@
+{
+    "language": "English",
+    "@language": {
+        "description": "The current language"
+    },
+    "flag": "🇬🇧",
+    "@flag": {
+        "description": "The current flag"
+    },
+    "appPhrase": "speak the world",
+    "@appPhrase": {
+        "description": "App Phrase"
+    },
+    "appContinue": "Continue",
+    "@appContinue": {
+        "description": "Continue"
+    },
+    "skip": "Skip for now",
+    "@skip": {
+        "description": "Skip"
+    },
+    "home": "Home",
+    "@home": {
+        "description": "Home page of the application"
+    },
+    "lesson": "Lesson",
+    "@lesson": {
+        "description": "Lesson page of the application"
+    },
+    "exercise": "Exercises",
+    "@exercise": {
+        "description": "Exercises page of the application"
+    },
+    "games": "Games",
+    "@games": {
+        "description": "Games pages of the application"
+    },
+    "chats": "Chats",
+    "@chats": {
+        "description": "Chats pages of the application"
+    },
+    "share": "Share",
+    "@share": {
+        "description": "Share"
+    },
+    "monday": "Mon",
+    "@monday": {
+        "description": "Monday"
+    },
+    "tuesday": "Tue",
+    "@tuesday": {
+        "description": "Tuesday"
+    },
+    "wednesday": "Wed",
+    "@wednesday": {
+        "description": "Wednesday"
+    },
+    "thursday": "Thu",
+    "@thursday": {
+        "description": "Thursday"
+    },
+    "friday": "Fri",
+    "@friday": {
+        "description": "Friday"
+    },
+    "saturday": "Sat",
+    "@saturday": {
+        "description": "Saturday"
+    },
+    "sunday": "Sun",
+    "@sunday": {
+        "description": "Sunday"
+    },
+    "brilliant": "Brilliant",
+    "@brilliante": {
+        "description": "Brilliante"
+    },
+    "meaning": "Meaning",
+    "@meaning": {
+        "description": "Meaning"
+    },
+    "speak": "Speak this sentence",
+    "@speak": {
+        "description": "Speak this sentence"
+    },
+    "comingSoon": "Coming Soon",
+    "@comingSoon": {
+        "description": "Coming Soon"
+    },
+    "studies": "Studies",
+    "@studies": {
+        "description": "Engage in academic pursuits"
+    },
+    "reading": "Reading",
+    "@reading": {
+        "description": "Dive into books and literature"
+    },
+    "technologies": "Technologies",
+    "@technologies": {
+        "description": "Explore the latest in technology"
+    },
+    "travel": "Travel",
+    "@travel": {
+        "description": "Embark on journeys to new places"
+    },
+    "psychology": "Psychology",
+    "@psychology": {
+        "description": "Understanding the mind and behavior"
+    },
+    "gaming": "Gaming",
+    "@gaming": {
+        "description": "Enjoy video games and gaming culture"
+    },
+    "tvMovies": "TV/Movies",
+    "@tvMovies": {
+        "description": "Watch television shows and movies"
+    },
+    "sports": "Sports",
+    "@sports": {
+        "description": "Engage in athletic activities"
+    },
+    "languages": "Languages",
+    "@languages": {
+        "description": "Learn and explore different languages"
+    },
+    "fashion": "Fashion",
+    "@fashion": {
+        "description": "Express yourself through clothing and style"
+    },
+    "fitness": "Fitness",
+    "@fitness": {
+        "description": "Prioritize physical well-being through exercise"
+    },
+    "pets": "Pets",
+    "@pets": {
+        "description": "Care for and enjoy the company of animals"
+    },
+    "food": "Food",
+    "@food": {
+        "description": "Explore culinary delights and cooking"
+    },
+    "climateChange": "Climate Change",
+    "@climateChange": {
+        "description": "Contribute to environmental sustainability"
+    },
+    "selfCare": "Self-Care",
+    "@selfCare": {
+        "description": "Prioritize personal well-being and relaxation"
+    },
+    "workLife": "Work Life",
+    "@workLife": {
+        "description": "Navigate professional and work-related activities"
+    },
+    "culture": "Culture",
+    "@culture": {
+        "description": "Explore and appreciate different cultures"
+    },
+    "design": "Design",
+    "@design": {
+        "description": "Express creativity through design"
+    },
+    "sociology": "Sociology",
+    "@sociology": {
+        "description": "Study societal structures and behaviors"
+    },
+    "music": "Music",
+    "@music": {
+        "description": "Enjoy and create music"
+    },
+    "outdoor": "Outdoor",
+    "@outdoor": {
+        "description": "Connect with nature and outdoor activities"
+    },
+    "networking": "Networking",
+    "@networking": {
+        "description": "Build professional and social connections"
+    },
+    "romance": "Romance",
+    "@romance": {
+        "description": "Explore romantic relationships and emotions"
+    },
+    "shopping": "Shopping",
+    "@shopping": {
+        "description": "Engage in retail therapy and fashion"
+    },
+    "sightSeeing": "Sight-seeing",
+    "@sightSeeing": {
+        "description": "Explore and appreciate new sights and landmarks"
+    }
+}
