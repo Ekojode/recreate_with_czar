@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:recreate_with_czar/utilities/app_theme.dart';
+import 'package:recreate_with_czar/widgets/app_nav_bar.dart';
 
 import 'controllers/locale_controller.dart';
 import 'l10n/l10n.dart';
+import 'widgets/action_bar.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -67,6 +70,7 @@ class _MyHomePageConsumerState extends ConsumerState<MyHomePage> {
   Widget build(BuildContext context) {
     final language = AppLocalizations.of(context)!;
     return Scaffold(
+      backgroundColor: AppColors.background,
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
@@ -75,13 +79,24 @@ class _MyHomePageConsumerState extends ConsumerState<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Row(
+              children: [
+                const Expanded(child: ActionBar()),
+                const SizedBox(
+                  width: 10,
+                ),
+                CircleAvatar(
+                  radius: 25,
+                  backgroundColor: AppColors.userBackground,
+                  child: Image.asset("assets/action_bar_icons/memoji.png"),
+                ),
+              ],
+            ),
             Text(
               language.flag,
               style: const TextStyle(fontSize: 30),
             ),
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            Text(language.appPhrase),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -119,6 +134,7 @@ class _MyHomePageConsumerState extends ConsumerState<MyHomePage> {
           ],
         ),
       ),
+      bottomNavigationBar: AppNavBar(),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
