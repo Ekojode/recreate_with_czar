@@ -47,20 +47,18 @@ class LessonView extends ConsumerWidget {
           const LessonSelector(),
           const SizedBox(height: 10),
           Expanded(
-            child: Align(
-                alignment: Alignment.centerLeft,
-                child: ListView.builder(
-                    //   physics: const NeverScrollableScrollPhysics(),
-                    shrinkWrap: true,
-                    itemCount: lessonModels.length,
-                    itemBuilder: (context, i) {
-                      final lesson = lessonModels[i];
-                      return LessonCard(
-                          image: lesson.image,
-                          title: lesson.title,
-                          color: lesson.color,
-                          description: lesson.description);
-                    })),
+            child: ListView.builder(
+                //   physics: const NeverScrollableScrollPhysics(),
+                shrinkWrap: true,
+                itemCount: lessonModels.length,
+                itemBuilder: (context, i) {
+                  final lesson = lessonModels[i];
+                  return LessonCard(
+                      image: lesson.image,
+                      title: lesson.title,
+                      color: lesson.color,
+                      description: lesson.description);
+                }),
           )
         ],
       ),

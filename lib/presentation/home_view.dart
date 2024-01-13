@@ -115,7 +115,7 @@ class HomeView extends ConsumerWidget {
                         physics: const NeverScrollableScrollPhysics(),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                             childAspectRatio: width < 359
-                                ? 0.5
+                                ? 0.7
                                 : width < 375
                                     ? 1.01
                                     : (width > 480 && width < 760)

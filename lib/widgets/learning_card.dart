@@ -35,16 +35,24 @@ class LearningCard extends StatelessWidget {
             height: 33,
           ),
           const SizedBox(height: 5),
-          Text(title,
-              style: GoogleFonts.josefinSans(
-                  fontSize: 20, fontWeight: FontWeight.w700)),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(title,
+                maxLines: 1,
+                style: GoogleFonts.josefinSans(
+                    fontSize: 20, fontWeight: FontWeight.w700)),
+          ),
           const SizedBox(height: 5),
-          Text(
-            "${language.youCompleted} $percent%",
-            style: GoogleFonts.josefinSans(
-                fontWeight: FontWeight.w600,
-                fontSize: 13,
-                color: AppColors.ash1),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              "${language.youCompleted} $percent%",
+              maxLines: 2,
+              style: GoogleFonts.josefinSans(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 13,
+                  color: AppColors.ash1),
+            ),
           ),
           const SizedBox(height: 5),
           LinearProgressIndicator(

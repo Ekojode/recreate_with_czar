@@ -11,6 +11,7 @@ class ComingSoonCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final language = AppLocalizations.of(context)!;
+    final width = MediaQuery.sizeOf(context).width;
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -48,7 +49,7 @@ class ComingSoonCard extends StatelessWidget {
               ),
             ),
             Positioned(
-                left: 40,
+                left: width < 310 ? 10 : 40,
                 top: 20,
                 child: SvgPicture.asset("assets/general_icons/bolt.svg"))
           ],
