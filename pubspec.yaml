@@ -36,5 +36,7 @@ flutter:
   assets:
     - assets/action_bar_icons/
     - assets/navigation_icons/
-
+    - assets/general_icons/
+    - assets/learning_icons/
+    - assets/lesson_images/
 

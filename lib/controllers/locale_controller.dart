@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:recreate_with_czar/controllers/local_storage.dart';
+
+import 'controllers.dart';
 
 class LocaleNotifier extends ChangeNotifier {
   Locale _appLocale = const Locale("en");

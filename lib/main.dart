@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:recreate_with_czar/utilities/app_theme.dart';
-import 'package:recreate_with_czar/widgets/app_nav_bar.dart';
 
 import 'controllers/locale_controller.dart';
 import 'l10n/l10n.dart';
-import 'widgets/action_bar.dart';
+import 'presentation/presentation.dart';
+import 'utilities/app_theme.dart';
+import 'widgets/widgets.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const MyHomePage(title: 'Flutter Demo Home Page'),
+        home: const DashbaordView(),
       );
     });
   }
@@ -134,7 +134,7 @@ class _MyHomePageConsumerState extends ConsumerState<MyHomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: AppNavBar(),
+      bottomNavigationBar: const AppNavBar(),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',

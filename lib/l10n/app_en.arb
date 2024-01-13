@@ -206,5 +206,81 @@
     "sightSeeing": "Sight-seeing",
     "@sightSeeing": {
         "description": "Explore and appreciate new sights and landmarks"
+    },
+    "your": "Your",
+    "@your":{
+        "description": "Refers to yourself"
+    },
+    "learningSphere":"Learning Sphere",
+    "@learningSphere":{
+        "description":"A place where one learns"
+    },
+    "youCompleted":"You Completed",
+    "@youCompleted":{
+        "description":"The number of modules completed"
+    },
+    "listen":"Listening",
+    "@listening":{
+        "description":"Act of listening"
+    },
+    "writing":"Writing",
+    "@writing":{
+        "description":"Act of writing"
+    },
+    "speaking":"Speaking",
+    "@speaking":{
+        "description":"Act of speaking"
+    },
+    "books":"Books",
+    "@books":{
+        "description":"Knowing books to read"
+    },
+    "quiz":"Quizzes",
+    "@quiz":{
+        "description":"Quizzes"
+    },
+    "audio":"Audio Lesson",
+    "@audio":{
+        "description":"Audio lessons"
+    },
+    "video":"Video Lesson",
+    "@video":{
+        "description":"Video lessons"
+    },
+    "firstTrip":"First Trip",
+    "@firstTrip":{
+        "description":"First trip lesson"
+    },
+    "firstTripDescription":"Here you will listen to conversations between tourists, and learn to speak together with them!",
+    "@firstTripDescription":{
+        "description": "Description of the first trip"
+    },
+    "freelance":"Freelance Work",
+    "@freelance":{
+        "description":"Freelance work"
+    },
+    "freelanceDescription":"After taking this classes, you will be able to take orders from foreigners!",
+    "@freelanceDescription":{
+        "description":"Freelance work description"
+    },
+    "firstMeeting":"First Meeting",
+    "@firstMeeting":{
+        "description":"First Meeting"
+    },
+    "firstMeetingDescription":"You will learn to communicate with your colleagues and understand them!",
+    "@firstMeetingDescription":{
+        "description":"First Meeting Description"
+    },
+    "partnersMeeting":"Meeting With Partners",
+    "@partnersMeeting":{
+        "description":"Meeting with partners"
+    },
+    "partnersMeetingDescription":"You will learn to communicate with your colleagues and understand them!",
+    "@partnersMeetingDescription":{
+        "description":"Partners meeting description"
+    },
+    "comingSoonMessage":"We’ll be up soon, keep an eye on us.",
+    "@comingSoonMessage":{
+        "description":"Coming soon message description"
     }
 }
